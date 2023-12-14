@@ -1,0 +1,119 @@
+# rugator-digital-legacy.pot
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-UK\n"
+"Language-Team: English (UK)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: 2023-09-27 08:12+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-27 08:12+0000\n"
+"Last-Translator: Rubén\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Version: 2.6.6; wp-6.3.1"
+
+#: rugator-digital-legacy.php:126 rugator-digital-legacy.php:170
+msgid "1 month"
+msgstr ""
+
+#: rugator-digital-legacy.php:129 rugator-digital-legacy.php:173
+msgid "1 year"
+msgstr ""
+
+#: rugator-digital-legacy.php:130 rugator-digital-legacy.php:174
+msgid "2 years"
+msgstr ""
+
+#: rugator-digital-legacy.php:127 rugator-digital-legacy.php:171
+msgid "3 months"
+msgstr ""
+
+#: rugator-digital-legacy.php:131 rugator-digital-legacy.php:175
+msgid "5 years"
+msgstr ""
+
+#: rugator-digital-legacy.php:128 rugator-digital-legacy.php:172
+msgid "6 months"
+msgstr ""
+
+#: rugator-digital-legacy.php:136 rugator-digital-legacy.php:180
+msgid "Customizable Notification Days:"
+msgstr ""
+
+#: rugator-digital-legacy.php:78
+msgid "Digital Legacy"
+msgstr ""
+
+#: rugator-digital-legacy.php:52
+msgid "Digital Legacy Notification"
+msgstr ""
+
+#: rugator-digital-legacy.php:77 rugator-digital-legacy.php:122 
+#: rugator-digital-legacy.php:166
+msgid "Digital Legacy Settings"
+msgstr ""
+
+#: rugator-digital-legacy.php:138 rugator-digital-legacy.php:182
+msgid ""
+"Enter the number of days before deletion that you want to receive a custom "
+"notification."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://torrijos.me"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://torrijos.me/"
+msgstr ""
+
+#: rugator-digital-legacy.php:124 rugator-digital-legacy.php:168
+msgid "Inactivity Period:"
+msgstr ""
+
+#. Author of the plugin
+msgid "Rubén Gámez Torrijos"
+msgstr ""
+
+#. Name of the plugin
+msgid "Rugator Digital Legacy Plugin"
+msgstr ""
+
+#: rugator-digital-legacy.php:140 rugator-digital-legacy.php:184
+msgid "Save Settings"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Schedules the deletion of user accounts after a period of inactivity and "
+"allows users to set their preferences. [rugator_digital_legacy]"
+msgstr ""
+
+#: rugator-digital-legacy.php:133 rugator-digital-legacy.php:177
+msgid "Select the inactivity period before account deletion is scheduled."
+msgstr ""
+
+#: rugator-digital-legacy.php:111
+msgid "Settings saved successfully."
+msgstr ""
+
+#: rugator-digital-legacy.php:90
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: rugator-digital-legacy.php:58
+#, php-format
+msgid ""
+"Your account will be deleted in %s due to inactivity in the next %d days. "
+"Please log in to prevent this."
+msgstr ""
+
+#: rugator-digital-legacy.php:53
+#, php-format
+msgid ""
+"Your account will be scheduled for deletion in %s due to inactivity. To "
+"prevent deletion, please log in to your account."
+msgstr ""
