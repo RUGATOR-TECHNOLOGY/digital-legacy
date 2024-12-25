@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Rugator Digital Legacy Plugin
  * Plugin URI: https://rugator.com
- * Description: Schedules the deletion of user accounts after a period of inactivity and allows users to set their preferences. [rugator_digital_legacy]
+ * Description: (Pruebas) Schedules the deletion of user accounts after a period of inactivity and allows users to set their preferences. [rugator_digital_legacy]
  * Version: 0.0.1
  * Requires at least: 4.0
  * Requires PHP: 5.6
