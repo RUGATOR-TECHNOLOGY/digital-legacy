@@ -157,6 +157,6 @@ Este proyecto está licenciado bajo la Licencia MIT. ¡Siéntete libre de usarlo
 
 ---
 
-> [!NOTE]:
->  Los cambios en el main o master, deberán ser aprobados por el propietario.
----
+> [!NOTE]
+> Los cambios en el main o master, deberán ser aprobados por el propietario.
+
