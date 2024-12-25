@@ -69,26 +69,54 @@ plugin-digital-legacy/
 ```
 ---
 
-## 🚀 **Guía de Uso**
-### 1. Instalación
-🔹1. Clona este repositorio:
+## 🚀 **Guía de instalación**
+### 1. Requisitos previos
+- WordPress >= 5.8
+- PHP >= 8.0
+
+### 2. Instalación
+🔹Descargar el repositorio o el archivo ***.ZIP** del plugin.
+🔹Accede a tu escritorio de administración de WordPress:
+
 ```
-git clone https://github.com/RubenGamezTorrijos/SmartSearch.git
-cd buscador_web
+Plugins > Añadir Nuevo > Subir Plugin
+```
+🔹Selecciona el archivo ***.ZIP** y haz clic en "Instalar Ahora".
+🔹Activa el plugin desde la lista de plugins instalados.
+
+---
+
+## 🛠️ **Desarrollo**
+### Scripts útiles
+- Formatear código:
+
+```
+bash dev-tools/format.sh
 ```
 
-🔹2. Instala las dependencias:
+- Ejecución de pruebas:
+
 ```
-pip install -r requirements.txt
+bash dev-tools/test.sh
 ```
 
-### 2. Ejecución de los Módulos
-#### 🕷️ Crawler
-Rastrea páginas web y almacena su contenido en formato JSON:
+### Requisitos de desarrollo
+🔹Instala las dependencias de desarrollo:
 ```
-python -m src.crawler.app --url "https://universidadeuropea.com" --max_webs 300 --output-folder ./etc/webpages
+composer install
+npm install
 ```
-**Parámetros:**
+
+## 🛠️ **Ejemplos de uso**
+### 🛡️Configuración Básica
+1. Accede a la página de configuración del plugin:
+```
+Ajustes > Digital Legacy
+```
+2. Configura el destino de los datos en caso de activación.
+3. Guarda los cambios y prueba el sistema con datos de ejemplo.
+
+---
 
 - ``url``: URL inicial para comenzar el rastreo.
 - ``max_webs``: Número máximo de páginas a rastrear.
