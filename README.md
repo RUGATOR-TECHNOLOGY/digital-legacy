@@ -132,7 +132,7 @@ Ajustes > Digital Legacy
 
 ## 🔮 Próximas mejoras
 
-- Integración con plataformas de terceros como Google Drive y Dropbox.
+- Integración con plataformas de terceros como BBpress y BuddyPress.
 
 - Ampliar las opciones de triggers automáticos.
 
