@@ -1,0 +1,30 @@
+/* front-style.css */
+
+/* Shortcode output styles */
+.rugator-shortcode {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #444;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons in the front-end */
+.rugator-button {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.rugator-button:hover {
+    background-color: #005177;
+}
