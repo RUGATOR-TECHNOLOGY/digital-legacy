@@ -15,7 +15,7 @@
 
 
 > [!NOTE]
-> **Versión actual:** 1.0.0  
+> **Versión actual:** 0.0.1  
 > **Plataforma WordPress:** v5.8^  
 > **Compatibilidad PHP:** v8.0
 
