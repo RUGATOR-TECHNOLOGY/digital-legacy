@@ -1,4 +1,4 @@
-# 💾 **Rugator Digital Legacy**
+# 🔌 **Rugator Digital Legacy**
 
 ¡Bienvenido al proyecto Plugin Rugator Digital Legacy! 🌐 Este plugin está diseñado para facilitar la gestión de legados digitales, permitiendo a los usuarios configurar y automatizar el manejo de sus datos digitales en caso surjan eventos futuros y quieran decidir que hacer con sus cuentas en caso de no poder acceder pasado un tiempo de 1 mes, 6 meses, 1 año, 2 años y hasta 5 años.
 
