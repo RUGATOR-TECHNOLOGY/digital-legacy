@@ -29,9 +29,9 @@
 - [Estructura](#-estructura)
 - [Guía de uso](#-guía-de-uso)
 - [Desarrollo](#-desarrollo)
-- [Ejemplos de Consultas](#-ejemplos-de-consultas)
+- [Ejemplos de uso](#-ejemplos-de-uso)
 - [Contribuciones](#-contribuciones)
-- [Próximas Mejoras](#-próximas-mejoras)
+- [Próximas mejoras](#-próximas-mejoras)
 - [Créditos](#-créditos)
 - [Licencia](#-licencia)
 
@@ -39,40 +39,29 @@
 
 ## 🌟 **Características**
 
-✅ **Crawler**: Rastrear y descargar contenido de páginas web en formato JSON.  
-✅ **Indexer**: Procesar contenido y construir un índice invertido eficiente.  
-✅ **Retriever**: Resolver consultas utilizando operadores lógicos como `AND`, `OR`, y `NOT`.  
-✅ **Diseño Modular**: Cada componente se desarrolla de forma independiente para facilitar la reutilización y mejora.  
-✅ **Pruebas Unitarias**: Cada módulo incluye ejemplos de uso y pruebas básicas para garantizar su correcto funcionamiento.
+✅ **Gestión del legado digital**: Configuración personalizada para delegar acceso o eliminar datos digitales.
+✅ **Automatización**: Programación de acciones basadas en fechas específicas o triggers externos.
+✅ **Seguridad**: Uso de claves de acceso y cifrado para proteger datos sensibles.
+✅ **Notificaciones**: Sistema de alertas configurables para mantener a los usuarios informados.
+✅ **Integración**: Compatible con WordPress y fácil de extender con otros plugins.
 
 ---
 
 ## 📂 **Estructura**
 
 ```plaintext
-buscador_web/
-├── dev-tools/          # Herramientas de desarrollo
-│   ├── format.sh       # Script para formatear código
-│   └── lint.sh         # Script para análisis estático
-├── etc/                # Archivos generados por el proyecto
-│   ├── indexes/        # Índices invertidos generados por el Indexer
-│   └── webpages/       # Páginas descargadas por el Crawler
-├── src/                # Código fuente del proyecto
-│   ├── crawler/        # Módulo Crawler
-│   │   ├── __init__.py 
-│   │   ├── app.py
-│   │   └── crawler.py 
-│   ├── indexer/        # Módulo Indexer
-│   │   ├── __init__.py 
-│   │   ├── app.py
-│   │   └── indexer.py 
-│   └── retriever/      # Módulo Retriever
-│       ├── __init__.py 
-│       ├── app.py
-│       └── retriever.py 
-├── requirements.txt    # Dependencias del proyecto
-├── dev-requirements.txt # Dependencias para desarrollo
-└── README.md           # Este archivo
+plugin-digital-legacy/
+├── assets/            # Recursos estáticos como imágenes, CSS y JS
+├── includes/          # Funcionalidades principales del plugin
+│   ├── admin/         # Archivos relacionados con la configuración en el panel de administración
+│   ├── public/        # Funciones accesibles desde la interfaz pública
+│   └── utils/         # Utilidades y helpers
+├── templates/         # Plantillas para vistas del plugin
+├── languages/         # Archivos de traducción
+├── tests/             # Pruebas unitarias y funcionales
+├── plugin-digital-legacy.php  # Archivo principal del plugin
+├── readme.txt         # Descripción para el repositorio de WordPress
+└── README.md          # Este archivo
 ```
 ---
 
