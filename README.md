@@ -130,7 +130,7 @@ Ajustes > Digital Legacy
 
 ---
 
-## 🔮 Próximas Mejoras
+## 🔮 Próximas mejoras
 
 - Integración con plataformas de terceros como Google Drive y Dropbox.
 
