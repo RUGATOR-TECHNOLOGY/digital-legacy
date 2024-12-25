@@ -20,7 +20,7 @@
 > **Compatibilidad PHP:** v8.0
 
 > [!WARNING]
-> Actualmente este proyecto ha pasado a realizarse individualmente.
+> Proyecto fase desarrollo.
 
 ---
 
