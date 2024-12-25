@@ -3,21 +3,21 @@
 ¡Bienvenido al proyecto Plugin Digital Legacy! 🌐 Este plugin está diseñado para facilitar la gestión de legados digitales, permitiendo a los usuarios configurar y automatizar el manejo de sus datos digitales en caso de eventos futuros.
 
 ![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?style=flat-square)
-![GitHub version](https://img.shields.io/github/v/tag/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?label=versión&style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?style=social)
+![GitHub license](https://img.shields.io/github/license/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=flat-square)
+![GitHub version](https://img.shields.io/github/v/tag/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?label=versión&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=social)
 
-![GitHub issues](https://img.shields.io/github/issues/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador?style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RubenGamezTorrijos/Sistemas_Inteligentes_Buscador/main.yml?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RUGATOR-TECHNOLOGY/PluginDigitalLegacy/main.yml?style=flat-square)
 
 
 > [!NOTE]
->  **Versión actual:** 1.0.0  
-> **Plataforma:** Python v3.8.0^  
-> **Compatibilidad:** Windows, macOS, Linux
+> **Versión actual:** 1.0.0  
+> **Plataforma WordPress:** v5.8^  
+> **Compatibilidad PHP:** v8.0
 
 > [!WARNING]
 > Actualmente este proyecto ha pasado a realizarse individualmente.
