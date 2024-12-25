@@ -120,7 +120,7 @@ Ajustes > Digital Legacy
 
 ## 🗂️ Contribuciones
 
-### 🤝 ¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:
+**🤝 ¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:**
 
 🔹 Haz un fork del repositorio.
 
