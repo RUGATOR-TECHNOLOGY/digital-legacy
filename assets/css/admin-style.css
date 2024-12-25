@@ -1,0 +1,41 @@
+/* admin-style.css */
+
+/* General plugin admin page styles */
+.wrap h1 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.wrap table.form-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+}
+
+.wrap table.form-table th {
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
+
+.wrap table.form-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.button-primary {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.button-primary:hover {
+    background-color: #005177;
+}
