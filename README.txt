@@ -1,4 +1,4 @@
-# 💾**Plugin Digital Legacy**
+# 💾 **Plugin Digital Legacy**
 
 ¡Bienvenido al proyecto Plugin Digital Legacy! 🌐 Este plugin está diseñado para facilitar la gestión de legados digitales, permitiendo a los usuarios configurar y automatizar el manejo de sus datos digitales en caso de eventos futuros.
 
