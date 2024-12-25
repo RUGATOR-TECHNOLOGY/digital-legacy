@@ -74,7 +74,7 @@ plugin-digital-legacy/
 - WordPress >= 5.8
 - PHP >= 8.0
 
-### 2. Instalación
+### 2. Instalación 🔍
 🔹Descargar el repositorio o el archivo ***.ZIP** del plugin.
 🔹Accede a tu escritorio de administración de WordPress:
 
@@ -118,117 +118,45 @@ Ajustes > Digital Legacy
 
 ---
 
-- ``url``: URL inicial para comenzar el rastreo.
-- ``max_webs``: Número máximo de páginas a rastrear.
-- ``output-folder``: Carpeta destino para los archivos JSON.
-
----
-
-#### 📇 Indexer
-Construye un índice invertido a partir de los archivos JSON generados por el Crawler:
-
-```
-python -m src.indexer.app --input-folder ./etc/webpages --output-name ./etc/indexes/inverted_index.bin
-```
-**Parámetros:**
-- ``--input-folder``: Carpeta con los archivos JSON generados por el Crawler.
-- ``--output-name``: Archivo donde se almacenará el índice invertido.
-
----
-
-#### 🔍 Retriever
-Resuelve consultas utilizando el índice invertido:
-```
-python -m src.retriever.app --index-file ./etc/indexes/inverted_index.bin --query "grado AND NOT master OR docencia"
-```
-
-**Parámetros:**
-- ``--index-file``: Ruta al índice invertido generado por el Indexer.
-- ``--query``: Consulta a resolver.
-
----
-
-#### 🛠️ Desarrollo
-**Scripts Útiles**
-- Formatear Código:
-```
-bash dev-tools/format.sh
-```
-- Análisis Estático:
-```
-bash dev-tools/lint.sh
-```
-**Requisitos de Desarrollo**
-Instala las dependencias adicionales para desarrollo:
-```
-pip install -r dev-requirements.txt
-```
-
----
-
-#### 🧪 Ejemplos de Consultas
-| Consulta | Descripción |
-|:----------|:-------------|
-| ``grado AND NOT master`` | Recupera páginas con "grado" y sin "master". |
-| ``docencia OR investigación``	| Recupera páginas con cualquiera de las palabras. |
-| ``universidad AND europea``	| Recupera páginas que contienen ambas palabras. |
-
----
-
 ## 🗂️ Contribuciones
+
 ### 🤝 ¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:
 
-🔹1. Haz un fork de este repositorio.
+🔹 Haz un fork del repositorio.
 
-Haz clic en el botón **Fork** en la parte superior derecha de la página para crear una copia de este repositorio en tu cuenta.
+🔹 Clona tu copia y crea un branch para tus cambios.
 
-Clona tu copia del repositorio a tu máquina local:
-```bash
-git clone https://github.com/RubenGamezTorrijos/NOMBRE_REPOSITORIO.git
-cd NOMBRE_REPOSITORIO
-```
-🔹2. Crea un branch para tu funcionalidad:
-```
-git checkout -b mi-rama
-```
-Haz los cambios en el código o añade nuevas funcionalidades según sea necesario. Asegúrate de seguir las guías de estilo del proyecto.
-🔹3. Haz un commit con tus cambios:
-```
-git add .
-git commit -m "Descripción clara de los cambios realizados"
-```
-🔹4. Sube tus cambios:
-```
-git push origin mi-rama.
-```
-🔹5. Abre un pull request en este repositorio.
-- Ve al repositorio original del proyecto.
-- Haz clic en la pestaña Pull Requests.
-- Haz clic en New Pull Request.
-- Selecciona tu rama desde el repositorio forkeado y compárala con la rama principal (main o master) del repositorio original.
-- Describe brevemente los cambios realizados y envía la solicitud.
+🔹 Envía tus propuestas mediante pull requests.
 
-> [!NOTE]:
->  Los cambios en el main o master, deberán ser aprobados por el propietario.
 ---
 
-## 🤖 Próximas Mejoras
-- Implementar ranking de resultados basado en relevancia (TF-IDF).
-- Ampliar soporte para búsqueda en documentos PDF.
-- Optimizar el tiempo de rastreo con paralelización del Crawler.
+## 🔮 Próximas Mejoras
+
+- Integración con plataformas de terceros como Google Drive y Dropbox.
+
+- Ampliar las opciones de triggers automáticos.
+
+- Mejorar la experiencia de usuario con nuevas interfaces intuitivas.
 
 ---
 
 ## ✨ Créditos
-Este proyecto no sería posible sin la dedicación de sus integrantes:
 
-- **Luca 🕷️** - Implementación del módulo Crawler
-- **Sergio 📇** - Implementación del módulo Indexer
-- **Rubén 🔍** - Implementación del módulo Retriever
-Agradecemos también a la Universidad Europea por inspirar este proyecto académico. 🙌
+Este proyecto está desarrollado y mantenido por:
+
+- **Equipo Digital Legacy** - Desarrollo y soporte técnico.
+- **Rubén Gámez Torrijos** - Principal desarrollador.
+
+Agradecemos a la comunidad de WordPress por su colaboración y apoyo constante.
 
 ---
 
 ## 📝 Licencia
-Este proyecto está bajo la licencia Apache 2.0. ¡Siéntete libre de usarlo, modificarlo y compartirlo!
 
+Este proyecto está licenciado bajo la Licencia MIT. ¡Siéntete libre de usarlo, modificarlo y compartirlo! 🚀
+
+---
+
+> [!NOTE]:
+>  Los cambios en el main o master, deberán ser aprobados por el propietario.
+---
