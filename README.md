@@ -40,9 +40,13 @@
 ## 🌟 **Características**
 
 ✅ **Gestión del legado digital**: Configuración personalizada para delegar acceso o eliminar datos digitales.
+
 ✅ **Automatización**: Programación de acciones basadas en fechas específicas o triggers externos.
+
 ✅ **Seguridad**: Uso de claves de acceso y cifrado para proteger datos sensibles.
+
 ✅ **Notificaciones**: Sistema de alertas configurables para mantener a los usuarios informados.
+
 ✅ **Integración**: Compatible con WordPress y fácil de extender con otros plugins.
 
 ---
