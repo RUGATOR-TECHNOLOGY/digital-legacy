@@ -1,6 +1,6 @@
-# 💾 **Plugin Digital Legacy**
+# 💾 **Rugator Digital Legacy**
 
-¡Bienvenido al proyecto Plugin Digital Legacy! 🌐 Este plugin está diseñado para facilitar la gestión de legados digitales, permitiendo a los usuarios configurar y automatizar el manejo de sus datos digitales en caso de eventos futuros.
+¡Bienvenido al proyecto Plugin Rugator Digital Legacy! 🌐 Este plugin está diseñado para facilitar la gestión de legados digitales, permitiendo a los usuarios configurar y automatizar el manejo de sus datos digitales en caso de eventos futuros.
 
 ![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/RUGATOR-TECHNOLOGY/PluginDigitalLegacy?style=flat-square)
