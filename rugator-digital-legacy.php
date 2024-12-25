@@ -36,3 +36,27 @@ add_action('plugins_loaded', 'rugator_digital_legacy_load_textdomain');
 
 // Schedule tasks on activation
 register_activation_hook(__FILE__, 'rugator_digital_legacy_schedule_activation');
+
+// Charger styles admin
+add_action('admin_enqueue_scripts', 'rugator_enqueue_admin_styles');
+function rugator_enqueue_admin_styles() {
+    wp_enqueue_style(
+        'rugator-admin-style',
+        plugin_dir_url(__FILE__) . 'assets/css/admin-style.css',
+        [],
+        '1.0.0',
+        'all'
+    );
+}
+
+// Charger styles front-end
+add_action('wp_enqueue_scripts', 'rugator_enqueue_front_styles');
+function rugator_enqueue_front_styles() {
+    wp_enqueue_style(
+        'rugator-front-style',
+        plugin_dir_url(__FILE__) . 'assets/css/front-style.css',
+        [],
+        '1.0.0',
+        'all'
+    );
+}
