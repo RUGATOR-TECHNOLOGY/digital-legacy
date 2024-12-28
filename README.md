@@ -108,7 +108,7 @@ npm install
 ```
 
 ## 🛠️ **Ejemplos de uso**
-### 🛡️Configuración Básica
+🛡️ **Configuración Básica**
 1. Accede a la página de configuración del plugin:
 ```
 Ajustes > Digital Legacy
